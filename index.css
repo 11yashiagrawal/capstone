@@ -1,23 +1,30 @@
-.body{
-    padding: 0px;
+body{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .landing-page{
     background-color: #FFFFFF;    
-    padding: 0px 48px;
     margin: 0;
 }
 header{
     background-color: #FFFFFF;
     height: 0.01%;
-    padding: 16px 0px;
+    padding: 0px 48px;
     display: flex;
     justify-content: space-between;
 }
-.divider{
+.divider1{
     width: 100%;
     height: 0;
     border: 2px solid #00000029;
+}
+.divider2{
+    width: 100%;
+    height: 0;
+    border: 2px solid #00000029;
+    position: absolute;
+    top: 80%;
 }
 .logo{
     display: flex;
@@ -52,13 +59,16 @@ header{
 .container{
     width: 100%;
     height: 94%;
-    padding: 48px 0px;
+    padding: 0px 48px;
+    box-sizing: border-box;
+    position:relative;
 }
 .container .main-content{
     height: 97.7%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 .main-content .tagline{
     height: 28%;
