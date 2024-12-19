@@ -24,7 +24,7 @@ header{
     height: 0;
     border: 2px solid #00000029;
     position: absolute;
-    top: 80%;
+    top: 90%;
 }
 .logo{
     display: flex;
@@ -45,6 +45,8 @@ header{
     height: 40%;
     gap: 32px;
     display: flex;
+    padding: 5px 0px;
+    box-sizing: border-box;
 }
 .page-links p{
     font-family: "Lexend Exa", sans-serif;
@@ -55,6 +57,16 @@ header{
     line-height: 32px;
     letter-spacing: -1%;
     color: #000000;
+}
+.page-links div{
+    transition: 0.3s ease;
+}
+.page-links div:hover{
+    background-color: gray;
+    border-radius: 4px;
+}
+.page-links div:hover p{
+    color: #FFFFFF;
 }
 .container{
     width: 100%;
@@ -119,6 +131,14 @@ header{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    transition: 0.5s ease;
+}
+.project:hover{
+    border-radius: 4px;
+    background-color: gray;
+}
+.project:hover span{
+    color: #FFFFFF;
 }
 .one,.five,.nine{
     height: 30%;
@@ -301,7 +321,7 @@ header{
 }
 .input-container{
     width: 150%;
-    height: 30%;
+    height: 23%;
     gap: 12px;
     display: flex;
     justify-content: center;
@@ -312,10 +332,13 @@ header{
     border: 2px solid #00000029;
     border-radius: 8px;
     padding: 8px 16px 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input span{
-    width: 12px;
-    height: 24px;
+    width: 21.4%;
+    height: 37.5%;
     font-size: 20px;
     line-height: 24px;
     font-family: "Newsreader", serif;
@@ -325,8 +348,8 @@ header{
     color: #0000005C;
 }
 .submit{
-    width: 400px;
-    height: 36px;
+    width: 100%;
+    height: 13%;
     border-radius: 8px;
     padding: 8px 16px 8px 16px;
     background-color: #AD7C00;
@@ -337,10 +360,15 @@ header{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    transition: 0.3s ease;
+}
+.submit:hover{
+    background-color: gray;
+    color: #FFFFFF;
 }
 .skip{
-    width: 40px;
-    height: 20px;
+    width: 10%;
+    height: 7.2%;
     font-family: "Lexend Exa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -349,21 +377,37 @@ header{
     line-height: 20px;
     color: #AD7C00;
 }
+.skip-design{
+    width: 93%;
+    height: 13%;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.skip-design:hover{
+    background-color: gray;
+}
+.skip-design:hover .skip{
+    color: #FFFFFF;
+}
 footer{
     width: 100%;
     height: 3.79%;
     border-top: 2px;
-    padding: 96px 0px 24px 0px;
+    box-sizing: border-box;
+    padding: 96px 48px 24px 48px;
     gap: 24px;
 }
 .footer-container{
-    height: 48px;
+    width: 100%;
+    height: 28.5%;
     display: flex;
     justify-content: space-between;
 }
 .pagelink{
-    width: 305px;
-    height: 32px;
+    width: 22%;
+    height: 66%;
     font-family: "Lexend Exa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -374,8 +418,8 @@ footer{
     color: #00000099;
 }
 button{
-    width: 166px;
-    height: 48px;
+    width: 12%;
+    height: 100%;
     border: 2px solid #00000029;
     border-radius: 8px;
     padding: 12px 24px;
@@ -385,4 +429,10 @@ button{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #FFFFFF;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: gray;
+    color: #FFFFFF;
 }
