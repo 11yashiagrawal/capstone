@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
@@ -60,6 +63,9 @@ header{
 }
 .page-links div{
     transition: 0.3s ease;
+}
+.page-links div a{
+    text-decoration: none;
 }
 .page-links div:hover{
     background-color: gray;
