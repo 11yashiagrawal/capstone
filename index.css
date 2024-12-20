@@ -27,7 +27,7 @@ header{
     height: 0;
     border: 2px solid #00000029;
     position: absolute;
-    top: 90%;
+    top: 86%;
 }
 .logo{
     display: flex;
@@ -333,7 +333,7 @@ header{
     justify-content: center;
 }
 .input{
-    width: 9.3%;
+    width: 4%;
     height: 100%;
     border: 2px solid #00000029;
     border-radius: 8px;
@@ -342,7 +342,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.input span{
+.input p{
     width: 21.4%;
     height: 37.5%;
     font-size: 20px;
