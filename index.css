@@ -441,3 +441,39 @@ button:hover{
     background-color: gray;
     color: #FFFFFF;
 }
+ @media (max-width: 853px){
+    .page-links{
+        width: 50vw;
+    }
+    .page-links p{
+        font-size: 15px;
+    }
+    .logo{
+        width: 50vw;
+    }
+    .logo span{
+        font-size: 30px;
+    }
+    .divider1{
+        width: 100vw;
+    }
+    .divider2{
+        width: 100vw;
+    }
+    .container{
+        width: 100vw;
+    }
+    .collage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .column{
+        width: 100vw;
+    }
+    footer button{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ }
